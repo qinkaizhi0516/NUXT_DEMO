@@ -64,6 +64,7 @@
       }
     },
     asyncData(context) {
+      console.log("Data -> context", context)
       // const res = await axios.get('http://localhost:3002/jokes?_limit=20')
       // let jokes = res.data.map(e => e.joke)
       // return {
